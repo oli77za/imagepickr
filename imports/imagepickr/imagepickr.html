@@ -1,0 +1,25 @@
+<template name="imagepickr">
+<!-- imagepickr -->
+<div class=imagepickr>
+    <div class="controls">
+        <div class="buttons">
+            <button class="pan_btn">Pan</button>
+            <button class="crop_btn">Crop</button>
+        </div>
+        <input type="text" name="zoom" class="zoom" value="{{getZoom}}" />
+    </div>
+    <div class="imagepreview">
+        <canvas></canvas>
+        <div class="control_overlay">
+        </div>
+    </div>
+    <div class="input_controls">
+        <input type="file" />
+        <button>Save</button>
+    </div>
+    <div class="debug">
+        <span id="debug"></span>
+    </div>
+</div>
+<!-- imagepickr -->
+</template>

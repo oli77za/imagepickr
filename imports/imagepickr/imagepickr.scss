@@ -1,0 +1,31 @@
+
+.imagepickr {
+    width: 300px;
+    .controls {
+        display: flex;
+        .buttons {
+            flex-grow: 1;
+        }
+        .zoom {
+            width: 40px;
+        }
+    }
+
+
+    .imagepreview {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        canvas,.control_overlay { 
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .control_overlay {
+            background-color: black;
+            opacity: .2
+        }
+    }
+}
